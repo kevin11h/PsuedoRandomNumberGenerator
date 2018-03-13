@@ -92,7 +92,10 @@ if __name__ == "__main__":
 # Since there are 3/6 chances for each range to be picked at this point numbers still
 # have uniform distribution.
 
-# Roll the second die -- 2nd roll: Since we now have a 50/50 chance of picking either range, we can map the next roll to each half of the range depending on the 1-5 of the die roll. This means that 6 cannot be mapped to each side, so if we roll 6, we roll until its not 6. This means our worst run time will be o(N).
+# Roll the second die -- 2nd roll: Since we now have a 50/50 chance of picking either range,
+# we can map the next roll to each half of the range depending on the 1-5 of the die roll.
+#  This means that 6 cannot be mapped to each side, so if we roll 6, we roll until its not 6.
+# This means our worst run time will be o(N).
 #
 # the mapping looks like this:
 #
