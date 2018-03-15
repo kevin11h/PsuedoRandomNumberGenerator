@@ -35,14 +35,7 @@ def roll6():
             return value
 
         else:
-            odd_switch_map = {
-                1: 1,
-                2: 2,
-                3: 3,
-                4: 4,
-                5: 5,
-            }
-            return odd_switch_map.get(roll2)
+            return roll2
 
     # if even
     else:
